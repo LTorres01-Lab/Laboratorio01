@@ -1,4 +1,6 @@
 body {
+    width: 100%;
+max-width: 300px;
     margin: 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: rgb(154, 146, 146);
@@ -51,4 +53,5 @@ h4 {
 .TamañoGIF img {
     width: 400px;
     height: auto;
+
 }
