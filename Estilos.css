@@ -1,42 +1,38 @@
-html {
-    background-color: silver;
+body {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(154, 146, 146);
 }
 
-h1,
-h4 {
-    margin: 30pt;
-    font-size: 60pt;
-    color: black;
-    display: block;
+h1 {
+    margin: 30px 0 10px 0;
+    font-size: 48px;
     text-align: center;
 }
 
-#Nombre {
-    font-size: 20pt;
-    display: block;
-    margin: 5pt auto;
+h4 {
+    margin: 0 0 30px 0;
+    font-size: 20px;
+    text-align: center;
 }
 
-#Apellido {
-    font-size: 20pt;
+.DatosPersonas {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
     display: block;
-    margin: 5pt auto;
+    margin: 20px auto;
+    padding: 8px;
+    width: 300px;
+    cursor: pointer;
 }
 
-#Edad {
-    font-size: 20pt;
-    display: block;
-    margin: 5pt auto;
-}
-
-#Comentario {
-    font-size: 20pt;
-    display: block;
-    margin: 5pt auto;
+/* ESTE ES EL CORRECTO */
+.DatosPersonas::placeholder {
+    font-size: 20px;
 }
 
 .Botones-Tamaño{
-    margin: 10px auto;
+    margin: 10px 0;
     text-align: center;
 }
 
@@ -50,4 +46,9 @@ h4 {
 
 .TamañoGIF {
     text-align: center;
+    margin-top: 20px;
+}
+.TamañoGIF img {
+    width: 400px;
+    height: auto;
 }
