@@ -1,65 +1,54 @@
 body {
-    
     margin: 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: rgb(154, 146, 146);
+
+    display: flex;
+    justify-content: center;  /* centra horizontal */
 }
+
 form {
-    max-width: 500px;
-    margin: auto;
+    width: 100%;
+    max-width: 400px;
     padding: 20px;
 }
 
 h1 {
-    margin: 30px 0 10px 0;
-    font-size: 48px;
     text-align: center;
+    font-size: 48px;
+    margin: 30px 0 10px 0;
 }
 
 h4 {
-    margin: 0 0 30px 0;
-    font-size: 20px;
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .DatosPersonas {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
-    display: block;
-    margin: 20px auto;
-    padding: 8px;
-    width: 100px;
-    cursor: pointer;
-    max-widtg: 400px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 18px;
+    padding: 10px;
+    margin-bottom: 15px;
 }
 
-/* ESTE ES EL CORRECTO */
-.DatosPersonas::placeholder {
-    font-size: 20px;
-}
-
-.Botones-Tamaño{
-    margin: 10px 0;
+.Botones-Tamaño {
     text-align: center;
+    margin-top: 10px;
 }
 
-.Botones button{
-    text-transform: uppercase;
+.Botones button {
     margin: 5px;
-    font-size: 20px;
     padding: 10px 20px;
-    cursor: pointer;
+    font-size: 16px;
 }
 
 .TamañoGIF {
     text-align: center;
     margin-top: 20px;
 }
+
 .TamañoGIF img {
     width: 100%;
-    max-width: 400px;
     height: auto;
-
 }
-
-
