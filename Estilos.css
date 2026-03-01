@@ -1,0 +1,53 @@
+html {
+    background-color: silver;
+}
+
+h1,
+h4 {
+    margin: 30pt;
+    font-size: 60pt;
+    color: black;
+    display: block;
+    text-align: center;
+}
+
+#Nombre {
+    font-size: 20pt;
+    display: block;
+    margin: 5pt auto;
+}
+
+#Apellido {
+    font-size: 20pt;
+    display: block;
+    margin: 5pt auto;
+}
+
+#Edad {
+    font-size: 20pt;
+    display: block;
+    margin: 5pt auto;
+}
+
+#Comentario {
+    font-size: 20pt;
+    display: block;
+    margin: 5pt auto;
+}
+
+.Botones-Tamaño{
+    margin: 10px auto;
+    text-align: center;
+}
+
+.Botones button{
+    text-transform: uppercase;
+    margin: 5px;
+    font-size: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.TamañoGIF {
+    text-align: center;
+}
