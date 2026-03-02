@@ -3,37 +3,37 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="Estilos.css" />
+    <link rel="stylesheet" href="estilo2.css" />
     <title>Prueba</title>
   </head>
   <body>
     <form action="Resultados.html" method="get">
       <div>
         <!--INGRESO DE DATOS DE LA PERSONA-->
-        <h1>PRACTICA</h1>
+        <h1>PRUEBA</h1>
         <h4>Ingrese sus datos</h4>
-        <input
+        <input class="DatosPersonas"
           type="text"
           name="Nombre"
           id="Nombre"
           placeholder="Escribe tu nombre"
-          required
+          required pattern="[A-Za-z/s]+"
         />
-        <input
+        <input class="DatosPersonas"
           type="text"
           name="Apellido"
           id="Apellido"
           placeholder="Apellido"
           required
         />
-        <input
+        <input class="DatosPersonas"
           type="text"
           name="Edad"
           id="Edad"
           placeholder="Escribe tu Edad"
           required
         />
-        <textarea
+        <textarea class="DatosPersonas"
           name="Comentario"
           id="Comentario"
           placeholder="Ingresa algun comentario si deseas"
@@ -61,9 +61,11 @@
           />
         </div>
       </div>
+      <div> <!--IMAGEN EN TEXTO-->
+        <h1 class="TexoIMAGEN">TEXTO DE PRUEBA</h1>
+      </div>
     </form>
   </body>
 </html>
-
 
 
