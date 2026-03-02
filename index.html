@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="estilo2.css" />
+    <link rel="stylesheet" href="/CSS/estilo2.css" />
     <title>Prueba</title>
   </head>
   <body>
@@ -17,21 +17,21 @@
           name="Nombre"
           id="Nombre"
           placeholder="Escribe tu nombre"
-          required pattern="[A-Za-z/s]+"
+          required
         />
         <input class="DatosPersonas"
           type="text"
           name="Apellido"
           id="Apellido"
           placeholder="Apellido"
-          required
+          required min="0" max="100"
         />
         <input class="DatosPersonas"
-          type="text"
+          type="number"
           name="Edad"
           id="Edad"
           placeholder="Escribe tu Edad"
-          required
+          required min="1" max="100"
         />
         <textarea class="DatosPersonas"
           name="Comentario"
@@ -67,5 +67,6 @@
     </form>
   </body>
 </html>
+
 
 
